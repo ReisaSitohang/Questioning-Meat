@@ -1,0 +1,27 @@
+nav .nav-wrapper{
+	background-color: #70af3f;
+	padding-left: 20px;
+	font-size: 50px;
+	font-family: 'Sansita', sans-serif;
+}
+
+a.btn-large.donateBtn {
+	margin-top: -17px;
+	background-color: #e07a00;
+	font-family: 'Raleway', sans-serif;
+}
+
+a.waves-effect.waves-light.btn.donateBtnMob {
+	background-color: #e07a00;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+}
+
+div.hide-on-med-and-up.right.full{
+	width: 100%;
+}
+
+
+/*font-family: 'Sansita', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
