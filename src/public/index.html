@@ -2,21 +2,50 @@
 <html>
 <head>
 	<title>Questioning Meat</title>
-	<script type="javascript" href="./js/materialize.min.js"></script>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="./css/materialize.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway|Sansita" rel="stylesheet">
+  <script type="javascript" href="./js/jquery-3.1.1.min.js"></script>
+  <script type="javascript" href="./js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Sansita" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Questioning Meat</a>
-      <ul class="right hide-on-small-only">
-      	<li><a href="" class="waves-effect waves-light btn-large donateBtn">Donate <i class="material-icons right">thumb_up</i></a></li>
-      </ul>    
+  <div class="heading">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="./" class="brand-logo">Questioning Meat</a>
+        <ul class="right hide-on-small-only">
+          <li class="donateLi"><a href="./donation.html" class="waves-effect waves-light btn-large donateBtn hvr-grow">Donate</a></li>
+        </ul>    
+      </div>
+    </nav>
+    <div class="hide-on-med-and-up right full"><a href="" class="waves-effect waves-light btn donateBtnMob hvr-grow">Donate</a></div>
+  </div>
+
+
+  <div class="row">
+    <div class="col s10 offset-s1 m4 offset-m1">
+      <div class="card large hoverable">
+        <div class="card-image">
+          <img class="robinFoto" src="./img/robin.png">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p class="robinText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+          </div>
+          <div class="card-action">
+            <span class="orange-text">Robin Schaper</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s10 offset-s1 m4 offset-m1 center-align">
+        <div class="bookContainer">
+        <img class="full book" src="./img/book.jpg">
+        <a href="./download" id="downloadBtn" class="waves-effect waves-light btn-large downloadBtn hvr-grow">Download Now</a></div>
+      </div>
     </div>
-  </nav>
-  <div class="hide-on-med-and-up right full"><a href="" class="waves-effect waves-light btn donateBtnMob">Donate</a></div>
-</body>
-</html>
+  </body>
+  </html>

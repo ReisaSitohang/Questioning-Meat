@@ -1,12 +1,17 @@
 nav .nav-wrapper{
 	background-color: #70af3f;
-	padding-left: 20px;
+	padding-left: 10px;
 	font-size: 50px;
 	font-family: 'Sansita', sans-serif;
 }
 
 a.btn-large.donateBtn {
 	margin-top: -17px;
+	background-color: #e07a00;
+	font-family: 'Raleway', sans-serif;
+}
+
+a.btn-large.downloadBtn {
 	background-color: #e07a00;
 	font-family: 'Raleway', sans-serif;
 }
@@ -21,7 +26,70 @@ div.hide-on-med-and-up.right.full{
 	width: 100%;
 }
 
+div.heading{
+	margin-bottom: 50px;
+}
 
-/*font-family: 'Sansita', sans-serif;
-font-family: 'Raleway', sans-serif;*/
+div.bookContainer {
+	padding-top: 10%;
+}
+img.full{
+	width: 80%;
+}
 
+img.robinFoto {
+	width: 200px;
+}
+
+p.robinText {
+	font-size: 100%;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+}
+
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+	background-color: #e07a00;
+}
+
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+	background-color: #e07a00;
+}
+
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+	border: 2px solid #e07a00;
+}
+
+input[type=text]:focus{
+	border-bottom: 1px solid #e07a00;
+	box-shadow: 0 1px 0 0 #e07a00;
+}
+
+.input-field input[type=text]:focus {
+      border-bottom: 1px solid #e07a00;
+      box-shadow: 0 1px 0 0 #e07a00;
+}
+
+[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
+    font-size: 1.5rem;
+}
+/* Button effects */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/*li.donateLi{
+	padding-right: 60%;
+	}*/
