@@ -2,13 +2,35 @@ nav .nav-wrapper{
 	background-color: #70af3f;
 	padding-left: 10px;
 	font-size: 50px;
-	font-family: 'Sansita', sans-serif;
+	font-family: 'qmeat';
 }
 
 a.btn-large.donateBtn {
-	margin-top: -17px;
+	margin-top: -8px;
 	background-color: #e07a00;
 	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+p.bookText{
+	font-size: 15px;
+	color: #e07a00;;
+}
+
+span.card-title.orange-text{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.card .card-content {
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+    background-color: rgba(126, 187, 70, 0.89);
+    color: white;
 }
 
 a.btn-large.downloadBtn {
@@ -31,7 +53,6 @@ div.heading{
 }
 
 div.bookContainer {
-	padding-top: 10%;
 }
 img.full{
 	width: 80%;
@@ -67,29 +88,31 @@ input[type=text]:focus{
 }
 
 .input-field input[type=text]:focus {
-      border-bottom: 1px solid #e07a00;
-      box-shadow: 0 1px 0 0 #e07a00;
+	border-bottom: 1px solid #e07a00;
+	box-shadow: 0 1px 0 0 #e07a00;
 }
 
 [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 /* Button effects */
 .hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
-/*li.donateLi{
-	padding-right: 60%;
-	}*/
+
+@font-face {
+	font-family: "qmeat";
+	src: url(../fonts/qmeat.ttf);
+}
