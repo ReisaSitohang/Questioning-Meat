@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Questioning Meat</title>
+  <title>Questioning Meat</title>
   <script type="javascript" href="./js/jquery-3.1.1.min.js"></script>
   <script type="javascript" href="./js/materialize.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway|Sansita" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Sansita|Kalam" rel="stylesheet">
 </head>
 <body>
-  <div class="heading">
     <nav>
       <div class="nav-wrapper">
-        <a href="./" class="brand-logo">Questioning Meat</a>   
+        <ul class="right">
+          <li class="donateLi"><a href="./" class="waves-effect waves-light btn donateBtn">Download</a></li>
+        </ul>    
       </div>
     </nav>
-  </div>
-  <div class="row">
-    <div class="col s12 m8 offset-m2 center-align">
-      <h2>Donate</h2>
-    </div>
-  </div>
+<section class="section1">
+<div>
   <div class="row">
     <form class="col s12 m4 offset-m4">
       <div class="row">
@@ -41,9 +38,9 @@
           <input name="group1" type="radio" id="money2" />
           <label for="money2">$ 10,-</label> 
           <input name="group1" type="radio" id="money3"  />
-          <label for="money3">$ 15,-</label>
+          <label for="money3">$ 25,-</label>
           <input name="group1" type="radio" id="money4" />
-          <label for="money4">$ 20,-</label>
+          <label for="money4">$ 50,-</label>
         </div>
       </div>
       <div class="row hide-on-large-only">
@@ -55,14 +52,14 @@
         </div>
         <div class="input-field col s6 m6 left-align"> 
           <input name="group1" type="radio" id="money3"  />
-          <label for="money3">$ 15,-</label>
+          <label for="money3">$ 25,-</label>
           <input name="group1" type="radio" id="money4" />
-          <label for="money4">$ 20,-</label>
+          <label for="money4">$ 50,-</label>
         </div>
       </div>
       <div class="row center-align">
         <div class="col s12">
-          Custom donation: $
+          Custom amount: $
           <div class="input-field inline">
             <input id="email" type="number" class="validate">
             <label for="email" data-error="wrong" data-success="right"></label>
@@ -72,11 +69,12 @@
       <div class="row center-align">
         <div class="col s12">
           <br>
-          <a href="./donation.html" class="waves-effect waves-light btn-large donateBtn cbutton cbutton--effect-radomir hvr-grow">Donate</a>
+          <a href="./donation.html" class="waves-effect waves-light btn-large downloadBtn hvr-grow">Donate</a>
         </div>
       </div>
     </form>
   </div>
+</section>  
 
 </body>
 </html>

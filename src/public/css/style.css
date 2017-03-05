@@ -1,18 +1,36 @@
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
 nav .nav-wrapper{
 	background-color: #70af3f;
 	padding-left: 10px;
 	font-size: 50px;
-	font-family: 'qmeat';
-	height: 80px;
+}
+
+nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
+    margin-top: -7px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 html, body {
     height: 100%;
 }
 
-a.btn-large.donateBtn {
-	margin-top: 7px;
+a.btn.donateBtn {
+	height: 30px;
+	line-height: 29px;
 	background-color: #e07a00;
+	font-family: 'Raleway', sans-serif;
+}
+
+a.btn.donateBtn2 {
+/*	height: 30px;
+	line-height: 29px;
+	background-color: #e07a00;*/
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -28,7 +46,7 @@ p{
 
 p.bookText{
 	font-size: 15px;
-	color: #e07a00;;
+	color: #70af3f;
 }
 
 span.card-title.orange-text{
@@ -58,10 +76,6 @@ div.hide-on-med-and-up.right.full{
 	width: 100%;
 }
 
-/*div.heading{
-	margin-bottom: 50px;
-}*/
-
 div.bookContainer {
 }
 img.full{
@@ -70,6 +84,19 @@ img.full{
 
 img.robinFoto {
 	width: 200px;
+}
+
+.sectionfull {
+	height: 100%;
+}
+
+.section1{
+	height: 100%;
+}
+
+.card.horizontal .card-image img {
+    max-width: auto; 
+    max-height: 130px;
 }
 
 p.robinText {
@@ -125,4 +152,35 @@ input[type=text]:focus{
 @font-face {
 	font-family: "qmeat";
 	src: url(../fonts/qmeat.ttf);
+}
+
+img.robinFoto2{
+	height: 100%;
+	text-align: right;
+	vertical-align: bottom;
+	border-radius: 8px;
+}
+
+
+
+div.col.s10.robinTextContainer{
+	height: 100%;
+}
+
+div.robinText{
+	color: #70af3f;
+	vertical-align: middle;
+}
+
+div.row.footer{
+	height: 150px;
+	border: solid 3px #70af3f;
+	border-radius: 10px;
+}
+
+div.col.s2.robinCol{
+	padding: 0px;
+	height: 100%;
+	text-align: right;
+	vertical-align: bottom;
 }
