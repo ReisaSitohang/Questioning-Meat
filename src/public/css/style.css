@@ -3,12 +3,22 @@ nav .nav-wrapper{
 	padding-left: 10px;
 	font-size: 50px;
 	font-family: 'qmeat';
+	height: 80px;
+}
+
+html, body {
+    height: 100%;
 }
 
 a.btn-large.donateBtn {
-	margin-top: -8px;
+	margin-top: 7px;
 	background-color: #e07a00;
 	font-family: 'Raleway', sans-serif;
+}
+
+div.contentContainer{
+ height: 100%;
+ width: 100%;
 }
 
 p{
@@ -48,9 +58,9 @@ div.hide-on-med-and-up.right.full{
 	width: 100%;
 }
 
-div.heading{
+/*div.heading{
 	margin-bottom: 50px;
-}
+}*/
 
 div.bookContainer {
 }
