@@ -10,71 +10,74 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway|Sansita|Kalam" rel="stylesheet">
 </head>
 <body>
-    <nav>
-      <div class="nav-wrapper">
-        <ul class="right">
-          <li class="donateLi"><a href="./" class="waves-effect waves-light btn donateBtn">Download</a></li>
-        </ul>    
-      </div>
-    </nav>
-<section class="section1">
-<div>
-  <div class="row">
-    <form class="col s12 m4 offset-m4">
-      <div class="row">
-        <div class="input-field col s12">
-          <input placeholder="Name" id="first_name" type="text" class="validate">
-          <label for="first_name"></label>
-        </div>
-        <div class="input-field col s12">
-          <input placeholder="Lastname" id="last_name" type="text" class="validate">
-          <label for="last_name"></label>
-        </div>
-      </div>  
-      <div class="row center-align hide-on-med-and-down">
-        <div class="input-field col s12">
-          <input name="group1" type="radio" id="money1" />
-          <label for="money1">$ 5,-</label>
-          <input name="group1" type="radio" id="money2" />
-          <label for="money2">$ 10,-</label> 
-          <input name="group1" type="radio" id="money3"  />
-          <label for="money3">$ 25,-</label>
-          <input name="group1" type="radio" id="money4" />
-          <label for="money4">$ 50,-</label>
-        </div>
-      </div>
-      <div class="row hide-on-large-only">
-        <div class="input-field col s6 m6 right-align">
-          <input name="group1" type="radio" id="money1" />
-          <label for="money1">$ 5,-</label>
-          <input name="group1" type="radio" id="money2" />
-          <label for="money2">$ 10,-</label>
-        </div>
-        <div class="input-field col s6 m6 left-align"> 
-          <input name="group1" type="radio" id="money3"  />
-          <label for="money3">$ 25,-</label>
-          <input name="group1" type="radio" id="money4" />
-          <label for="money4">$ 50,-</label>
-        </div>
-      </div>
-      <div class="row center-align">
-        <div class="col s12">
-          Custom amount: $
-          <div class="input-field inline">
-            <input id="email" type="number" class="validate">
-            <label for="email" data-error="wrong" data-success="right"></label>
+  <nav>
+    <div class="nav-wrapper">
+      <ul class="right">
+        <li class="donateLi"><a href="./" class="waves-effect waves-light btn donateBtn">Download</a></li>
+      </ul>    
+    </div>
+  </nav>
+
+  <div class="valign-wrapper contentContainer">
+    <div class="row valign">
+    <div class="donationContainer">
+      <form class="col s12">
+        <p class="center-align donateText">Thank you!</p>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Name" id="first_name" type="text" class="validate">
+            <label for="first_name"></label>
+          </div>
+          <div class="input-field col s12">
+            <input placeholder="Lastname" id="last_name" type="text" class="validate">
+            <label for="last_name"></label>
+          </div>
+        </div>  
+        <div class="row center-align hide-on-med-and-down">
+          <div class="input-field col s12">
+            <input name="group1" type="radio" id="money1" />
+            <label for="money1">$ 5,-</label>
+            <input name="group1" type="radio" id="money2" />
+            <label for="money2">$ 10,-</label> 
+            <input name="group1" type="radio" id="money3"  />
+            <label for="money3">$ 25,-</label>
+            <input name="group1" type="radio" id="money4" />
+            <label for="money4">$ 50,-</label>
           </div>
         </div>
-      </div>
-      <div class="row center-align">
-        <div class="col s12">
-          <br>
-          <a href="./donation.html" class="waves-effect waves-light btn-large downloadBtn hvr-grow">Donate</a>
+        <div class="row hide-on-large-only">
+          <div class="input-field col s6 m6 right-align">
+            <input name="group1" type="radio" id="money1" />
+            <label for="money1">$ 5,-</label>
+            <input name="group1" type="radio" id="money2" />
+            <label for="money2">$ 10,-</label>
+          </div>
+          <div class="input-field col s6 m6 left-align"> 
+            <input name="group1" type="radio" id="money3"  />
+            <label for="money3">$ 25,-</label>
+            <input name="group1" type="radio" id="money4" />
+            <label for="money4">$ 50,-</label>
+          </div>
         </div>
+        <div class="row center-align">
+          <div class="col s12">
+            <span class="custom">Custom amount: $</span>
+            <div class="input-field inline">
+              <input id="email" type="number" class="validate">
+              <label for="email" data-error="wrong" data-success="right"></label>
+            </div>
+          </div>
+        </div>
+        <div class="row center-align">
+          <div class="col s12">
+            <br>
+            <a href="./donation.html" class="waves-effect waves-light btn-large downloadBtn hvr-grow">Donate</a>
+          </div>
+        </div>
+      </form>
       </div>
-    </form>
-  </div>
-</section>  
+    </div>
+  </div> 
 
 </body>
 </html>
