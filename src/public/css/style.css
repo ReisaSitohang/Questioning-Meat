@@ -20,6 +20,11 @@ html, body {
     height: 100%;
 }
 
+[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
+    padding-left: 22px;
+    padding-right: 15px;
+}
+
 a.btn.donateBtn {
 	height: 30px;
 	line-height: 29px;
@@ -40,7 +45,12 @@ input.btn-large.donationButton{
 }
 
 p.donateText{
-	font-size: 30px;
+	font-size: 25px;
+	color: #70af3f;
+}
+
+p.donateText2{
+	font-size: 15px;
 	color: #70af3f;
 }
 
