@@ -34,6 +34,11 @@ a.btn.donateBtn2 {
 	font-family: 'Raleway', sans-serif;
 }
 
+input.btn-large.donationButton{
+	background-color: #e07a00;
+	font-family: 'Raleway', sans-serif;
+}
+
 p.donateText{
 	font-size: 30px;
 	color: #70af3f;
