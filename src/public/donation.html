@@ -2,8 +2,6 @@
 <html>
 <head>
   <title>Questioning Meat</title>
-  <script type="javascript" href="./js/jquery-3.1.1.min.js"></script>
-  <script type="javascript" href="./js/materialize.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -13,7 +11,7 @@
   <nav>
     <div class="nav-wrapper">
       <ul class="right">
-        <li class="donateLi"><a href="./" class="waves-effect waves-light btn donateBtn">Home</a></li>
+        <li class="donateLi"><a href="./" class="btn donateBtn">Home</a></li>
       </ul>    
     </div>
   </nav>
@@ -25,7 +23,7 @@
           <input name="sid" type="hidden" value="901342980">
           <input name="mode" type="hidden" value="2CO">
           <input name="return_url" type="hidden" value="https://www.questioningmeat.com/">
-          <input name="li_0_name" type="hidden" value="ebook">
+          <input name="li_0_name" type="hidden" value="Donation">
           <input name="li_0_price" type="hidden" value="0.0">
           <input name="card_holder_name" type="hidden" value="Checkout Shopper">
           <input name="paypal_direct" type="hidden" value="Y">
@@ -49,13 +47,12 @@
               <input name="li_0_price" type="radio" id="money4" value="50"/>
               <label for="money4">$ 50,-</label>
               <div>
-              <input name="li_0_price" type="radio" id="money5" value="0"/>
-              <label for="money5">Custom: $</label>
-              <!-- <span class="custom">Custom : </span><span class="custom2">$</span> -->
-              <div class="input-field inline">
-                <input name="li_0_price" id="customAmount" type="number" class="validate" step="any" min="0">
-                <label for="customAmount" data-error="wrong" data-success="right"></label>
-              </div>
+                <input name="li_0_price" type="radio" id="money5" value="0"/>
+                <label for="money5">Custom: $</label>
+                <div class="input-field inline">
+                  <input name="li_0_price" id="customAmount" type="number" class="validate" step="any" min="0">
+                  <label for="customAmount" data-error="wrong" data-success="right"></label>
+                </div>
               </div>
             </div>
           </div>
@@ -73,26 +70,34 @@
               <input name="li_0_price" type="radio" id="money4" value="50"/>
               <label for="money4">$ 50,-</label>
             </div>
-              <div class="center-align">
+            <div class="center-align">
               <input name="li_0_price" type="radio" id="money5" value="0"/>
               <label for="money5">Custom $ :</label>
-<!--               <span class="custom">Custom : </span><span class="custom2">$</span> -->
               <div class="input-field inline">
-                <input name="li_0_price" id="customAmount" type="number" class="validate" step="any" min="0">
-                <label for="customAmount" data-error="wrong" data-success="right"></label>
+                <input name="li_0_price" id="customAmountMob" type="number" class="validate" step="any" min="0">
+                <label for="customAmountMob" data-error="wrong" data-success="right"></label>
               </div>
-              </div>
+            </div>
           </div>
           <div class="row center-align">
             <div class="col s12">
               <br>
-              <input class="waves-effect waves-light btn-large donationButton hvr-grow" name='submit' type='submit' value='Donate' >
+              <input class="btn-large donationButton hvr-grow" name='submit' type='submit' value='Donate' >
             </div>
           </div>
         </form>
       </div>
     </div>
   </div> 
-
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container center-align">
+        <i>Questioning Meat</i> is published by my one-man publishing company Veggies Go Viral, registered at this address: Waterbospark 93, 2231JX Rijnsburg, The Netherlands.
+      </div>
+    </div>
+  </footer>
+    <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./js/materialize.js"></script>
+    <script type="text/javascript" src="./js/custom.js"></script>
 </body>
 </html>
