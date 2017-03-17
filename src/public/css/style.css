@@ -1,7 +1,7 @@
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 40px;
-    line-height: 40px;
-    margin-bottom: 5px;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 5px;
 }
 
 nav .nav-wrapper{
@@ -11,18 +11,18 @@ nav .nav-wrapper{
 }
 
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
-    margin-top: -7px;
-    margin-left: 15px;
-    margin-right: 15px;
+	margin-top: -7px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
 }
 
 [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
-    padding-left: 22px;
-    padding-right: 15px;
+	padding-left: 22px;
+	padding-right: 15px;
 }
 
 a.btn.donateBtn {
@@ -55,8 +55,8 @@ p.donateText2{
 }
 
 div.contentContainer{
- height: 100%;
- width: 100%;
+	height: 100%;
+	width: 100%;
 }
 
 div.donationContainer{
@@ -81,10 +81,10 @@ span.card-title.orange-text{
 }
 
 .card .card-content {
-    padding: 24px;
-    border-radius: 0 0 2px 2px;
-    background-color: rgba(126, 187, 70, 0.89);
-    color: white;
+	padding: 24px;
+	border-radius: 0 0 2px 2px;
+	background-color: rgba(126, 187, 70, 0.89);
+	color: white;
 }
 
 a.btn-large.downloadBtn {
@@ -121,8 +121,8 @@ img.robinFoto {
 }
 
 .card.horizontal .card-image img {
-    max-width: auto; 
-    max-height: 130px;
+	max-width: auto; 
+	max-height: 130px;
 }
 
 p.robinText {
@@ -157,28 +157,28 @@ h2{
 }
 
 span.custom {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #9e9e9e;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: #9e9e9e;
 }
 
 span.custom2 {
-    font-size: 1.5rem;
-    color: #9e9e9e;
+	font-size: 1.5rem;
+	color: #9e9e9e;
 }
 
 input#first_name{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #9e9e9e;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: #9e9e9e;
 }
 
 #customAmount{
 	width: 80px;
-    font-size: 1.5rem;
-    color: #9e9e9e;
+	font-size: 1.5rem;
+	color: #9e9e9e;
 }
 
 [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
@@ -207,7 +207,7 @@ input#first_name{
 }
 
 img.robinFoto2{
-	height: 100%;
+	height: 144PX;
 	text-align: right;
 	vertical-align: bottom;
 	border-radius: 8px;
@@ -215,7 +215,7 @@ img.robinFoto2{
 
 
 
-div.col.s10.robinTextContainer{
+div.col.s9.robinTextContainer{
 	height: 100%;
 }
 
@@ -230,7 +230,7 @@ div.row.footer{
 	border-radius: 10px;
 }
 
-div.col.s2.robinCol{
+div.col.s3.robinCol{
 	padding: 0px;
 	height: 100%;
 	text-align: right;
@@ -238,5 +238,5 @@ div.col.s2.robinCol{
 }
 
 .card {
-    box-shadow: none;
+	box-shadow: none;
 }
