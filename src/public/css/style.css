@@ -45,7 +45,7 @@ input.btn-large.donationButton{
 }
 
 p.donateText{
-	font-size: 25px;
+	font-size: 23px;
 	color: #70af3f;
 }
 
@@ -157,8 +157,28 @@ h2{
 }
 
 span.custom {
-	font-family: 'Raleway', sans-serif;
-	font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #9e9e9e;
+}
+
+span.custom2 {
+    font-size: 1.5rem;
+    color: #9e9e9e;
+}
+
+input#first_name{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #9e9e9e;
+}
+
+#customAmount{
+	width: 80px;
+    font-size: 1.5rem;
+    color: #9e9e9e;
 }
 
 [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
