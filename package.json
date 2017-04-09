@@ -1,0 +1,22 @@
+{
+  "name": "questioning-meat",
+  "version": "1.0.0",
+  "description": "ebook donation vegan",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReisaSitohang/Questioning-Meat.git"
+  },
+  "author": "Reisa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReisaSitohang/Questioning-Meat/issues"
+  },
+  "homepage": "https://github.com/ReisaSitohang/Questioning-Meat#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
