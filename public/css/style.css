@@ -87,6 +87,8 @@ div.donationContainer {
 	overflow: auto;
 	border-radius: 10px;
 	margin-top: 15%;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 p{
@@ -296,7 +298,7 @@ div.row.footer{
 	border-radius: 10px;
 }
 
-div.col.m4.robinCol{
+div.robinCol{
 	padding: 0px;
 	height: 450px;
 }
@@ -321,6 +323,14 @@ div.mobilespacer {
 	height: 300px;
 }
 
+#mobile{
+	margin-top: 100px;
+}
+
+input#NameDon {
+	width: 35%;
+}
+
 @media only screen and (max-device-width : 1024px) {
 	[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
 		font-size: 1.5rem;
@@ -339,6 +349,20 @@ div.mobilespacer {
 	}
 
 	div.customDiv{
-		margin-top: 20px;
+		margin-top: 30px;
+	}
+	input#first_name {
+		font-size: 35px;
+	}
+	input#NameDon {
+		font-size: 40px; 
+		height: 80px;
+		width: 40%;
+	}
+}
+
+@media only screen and (max-device-width : 360px) {
+	#galaxy {
+		margin-top: 500px;
 	}
 }

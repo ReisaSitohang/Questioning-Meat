@@ -42,63 +42,42 @@
         <div class="mobilespacer hide-on-large-only">
         </div>
         <div class="donationContainer">
-          <form id="myform" name="myform" class="col s12" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-            <p class="center-align donateText hide-on-med-and-down">Thank you so much for visiting this page!</p>
-            <p class="center-align donateText hide-on-large-only" style="font-size: 45px;">Thank you so much for visiting this page!</p>
-            <p class="center-align donateText2 hide-on-med-and-down">I'm really glad you found value in the book <br> and are willing to make a donation. <br> Your generosity is much appreciated!</p>
-            <p class="center-align donateText2 hide-on-large-only" style="font-size: 35px;">I am really glad you found value in the book <br> and are willing to make a donation. <br> Your generosity is much appreciated!</p>
-            <div class="row hide-on-med-and-down">
+          <p class="center-align donateText hide-on-med-and-down">Thank you so much for visiting this page!</p>
+          <p class="center-align donateText hide-on-large-only" style="font-size: 45px;">Thank you so much for visiting this page!</p>
+          <p class="center-align donateText2 hide-on-med-and-down">I'm really glad you found value in the book <br> and are willing to make a donation. <br> Your generosity is much appreciated!</p>
+          <p class="center-align donateText2 hide-on-large-only" style="font-size: 35px;">I am really glad you found value in the book <br> and are willing to make a donation. <br> Your generosity is much appreciated!</p>
+          <form name="myform" class="col s12" action="savenames.php" method="get" target="_top">
+            <div class="row">
               <div class="input-field col s12">
-                <input placeholder="Name" id="first_name" name="<first_name>" type="text" class="validate">
-                <label for="first_name"></label>
+                <input placeholder="Name" id="first_name" name="field1" type="text">
               </div>
             </div>
-            <div class="row hide-on-large-only">
-              <div class="input-field col s12">
-                <input style="font-size: 35px;" placeholder="Name" name="<first_name>" id="first_name" type="text" class="validate">
-                <label style="font-size: 35px;" for="first_name"></label>
-              </div>
-            </div>
-            <p id="clickMe">CHECK</p>
-            <!-- For PC   -->
             <div class="row center-align">
               <div class="input-field col s12 moneySize">
-                <input name="amount" type="radio" id="money1" value="5"/>
-                <label class="moneySize" onclick="" for="money1">$ 5,-<br></label>
-                <input name="amount" type="radio" id="money2" value="10"/>
-                <label class="moneySize" onclick="" for="money2">$ 10,-</label>
-                <input name="amount" type="radio" id="money3"  value="25"/>
-                <label class="moneySize" onclick="" for="money3">$ 25,-</label>
-                <input name="amount" type="radio" id="money4" value="50"/>
-                <label class="moneySize" onclick="" for="money4">$ 50,-</label>
+                <input name="amount" type="radio" id="money1" value="5" class="radio"/>
+                <label class="moneySize" for="money1">$ 5,-<br></label>
+                <input name="amount" type="radio" id="money2" value="10" class="radio"/>
+                <label class="moneySize" for="money2">$ 10,-</label>
+                <input name="amount" type="radio" id="money3"  value="25" class="radio"/>
+                <label class="moneySize" for="money3">$ 25,-</label>
+                <input name="amount" type="radio" id="money4" value="50" class="radio"/>
+                <label class="moneySize" for="money4">$ 50,-</label>
                 <div class="customDiv">
-                  <input name="amount" type="radio" id="money5" value="0.00"/>
-                  <label class="moneySize" for="money5">Custom</label>
-<!--                   <div class="input-field inline">
-                    <input name="amount" id="customAmount" type="number" class="validate moneySize" step="any" min="0">
-                    <label for="customAmount" data-error="wrong" data-success=""></label>
-                  </div> -->
+                  <input name="amount" type="radio" id="money5" value="" class="radio"/>
+                  <label class="moneySize" for="money5">Custom $</label>
+                  <div class="input-field inline" style="">
+                    <input id="customAmount" type="number" class="validate moneySize" step="any" min="0">
+                  </div>
                 </div>
               </div>
             </div>
             <div class="row center-align">
               <div class="col s12">
                 <br>
-                <div class="hide-on-med-and-down">
-                  <input id="Don")" alt="Make payments with PayPal - it's fast, free and secure!" class="btn-large donationButton hvr-grow" name='submit' type='submit' value='Donate' alt="PayPal - The safer, easier way to pay online!">                  
+                <div>
+                  <input style="display: none;" id="Don" alt="Make payments with PayPal - it's fast, free and secure!" class="btn-large donationButton hvr-grow" name='submit' type='submit' value='Donate' alt="PayPal - The safer, easier way to pay online!">
+                  <input id="NameDon" style="border-bottom: 0px;" type='button' class="btn-large donationButton hvr-grow" value='Donate'>
                 </div>
-                <div class="hide-on-large-only">
-                  <input id="Don" alt="Make payments with PayPal - it's fast, free and secure!" style="font-size: 40px; height: 80px; width: 40%;" onclick="" class="btn-large donationButton hvr-grow " name='submit' type='submit' value='Donate' >
-                </div>
-                <input type="hidden" name="cmd" value="_xclick">
-                <input type="hidden" name="business" value="V73M83YRFESC4">
-                <input type="hidden" name="lc" value="NL">
-                <input type="hidden" name="item_name" value="E-book">
-                <input type="hidden" name="currency_code" value="EUR">
-                <input type="hidden" name="button_subtype" value="services">
-                <input type="hidden" name="no_note" value="1">
-                <input type="hidden" name="no_shipping" value="1">
-                <input type="hidden" name="cancel_return" value="http://www.questioningmeat.com/donate">
               </div>
             </div>
           </form>
@@ -114,7 +93,6 @@
   <script type="text/javascript" src="./js/materialize.min.js"></script>
   <script type="text/javascript" src="./js/custom.js"></script>
   <script language="javascript">
-
 // -->
 </script>
 </body>

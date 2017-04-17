@@ -9,17 +9,17 @@ $( document ).ready(function() {
 		$("img.robinFoto2").show();
 	};
 
-	$('#clickMe').click(function() {
-		let custom = $("#customAmount").val()
-		$("#money5").val(custom)
-		console.log($('#customAmount').val())
-	});
-
-
-// 	$('#myform').submit(function() {
-// 		let custom = $("#customAmount").val()
-// 		$("#money5").val(custom)	
-// 		// $("#money5").val(12)
-//     return true; // return false to cancel form action
-// });
+	if($('div.wrapper')){
+		var gewenst = $('div.wrapper').height();
+		$('div#fotoBox').css('height', gewenst );
+		$("img.robintje").show();
+	};
+		$('#NameDon').click(function() { 	//When clicking on the donate button
+			let custom1 = $("#customAmount").val() //Check input value
+			$("#money5").val(custom1) //Change value to user input
+			// $("#hiddenNameButton").trigger("click")//Submit name php
+			setTimeout(function() {
+		 		$("input#Don").trigger("click")//Submit the form with the value
+			}, 10);
+	})
 });

@@ -21,8 +21,8 @@
   <meta property="og:type"               content="website"/>
   <meta property="og:title"              content="Questioning Meat"/>
   <meta property="og:description"        content="Do you love meat and want to keep eating it? Are you skeptical of arguments against it? But are you
-            still driven by curiosity and interested in having your ideas challenged? Then this free e-book is
-            perfect for you!"/>
+  still driven by curiosity and interested in having your ideas challenged? Then this free e-book is
+  perfect for you!"/>
   <meta property="og:image"              content="http://questioningmeat.com/img/bookthumbnail.jpg"/> 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/materialize.min.css">
@@ -45,71 +45,79 @@
       </ul>    
     </div>
   </nav>
-  <div class="contentContainer">
+  <main>
+  <!-- Desktop -->
+  <div class="contentContainer hide-on-med-and-down">
     <div class="row">
-      <div class="col m12 l6 offset-l3 center-align hide-on-large-only">
-        <div class="bookContainer">
-          <img class="full bookMob" src="./img/bookMob.jpg">
-          <p class="bookText hide-on-med-and-down">Do you love meat and want to keep eating it? Are you skeptical of arguments against it?<br> But are you
-            still driven by curiosity and interested in having your ideas challenged?<br> Then this free e-book is
-            perfect for you!</p>
-            <p class="bookText hide-on-large-only" style="font-size: 40px;">Do you love meat and want to keep eating it?<br> Are you skeptical of arguments against it?<br>But are you
-              still driven by curiosity and <br>interested in having your ideas challenged?<br>Then this free e-book is
+      <div class="col m12 l6 offset-l3 center-align hide-on-med-and-down" style="height: 620px; position: relative;">
+        <div style="position: absolute; bottom: 0px;">
+          <div class="bookContainer">
+            <img class="full book" src="./img/book.jpg">
+            <p class="bookText hide-on-med-and-down">Do you love meat and want to keep eating it? Are you skeptical of arguments against it?<br>But are you
+              still driven by curiosity and interested in having your ideas challenged?<br>Then this free e-book is
               perfect for you!</p>
-              <a href="./files/QuestioningMeat.epub" onclick="handleOutboundLinkClicks()" id="downloadBtn" class="waves-effect waves-light btn-large downloadBtn2 hvr-grow " download="">Download Now</a>
+              <p class="bookText hide-on-large-only" style="font-size: 30px;">Do you love meat and want to keep eating it?<br> Are you skeptical of arguments against it?<br> But are you
+                still driven by curiosity and <br>interested in having your ideas challenged?<br> Then this free e-book is
+                perfect for you!</p>
+                <a href="http://www.questioningmeat.com/files/QuestioningMeat.epub" onclick="handleOutboundLinkClicks()" id="downloadBtn" class="waves-effect waves-light btn-large downloadBtn hvr-grow " download="">Download Now</a>
+              </div>
             </div>
           </div>
-          <div class="col m12 l6 offset-l3 center-align hide-on-med-and-down" style="height: 620px; position: relative;">
+          <div id="RobinCard" class="col m2 offset-s1 hide-on-med-and-down" style="height: 620px; position: relative;">
             <div style="position: absolute; bottom: 0px;">
-              <div class="bookContainer">
-                <img class="full book" src="./img/book.jpg">
-                <p class="bookText hide-on-med-and-down">Do you love meat and want to keep eating it? Are you skeptical of arguments against it?<br>But are you
-                  still driven by curiosity and interested in having your ideas challenged?<br>Then this free e-book is
-                  perfect for you!</p>
-                  <p class="bookText hide-on-large-only" style="font-size: 30px;">Do you love meat and want to keep eating it?<br> Are you skeptical of arguments against it?<br> But are you
-                    still driven by curiosity and <br>interested in having your ideas challenged?<br> Then this free e-book is
-                    perfect for you!</p>
-                    <a href="./files/QuestioningMeat.epub" onclick="handleOutboundLinkClicks()" id="downloadBtn" class="waves-effect waves-light btn-large downloadBtn hvr-grow " download="">Download Now</a>
-                  </div>
-                </div>
-              </div>
-              <div id="RobinCard" class="col m2 offset-s1 hide-on-med-and-down" style="height: 620px; position: relative;">
-                <div style="position: absolute; bottom: 0px;">
-                  <div class="card">
-                    <div class="card-image">
-                      <div class="robinImg"><img class="robinFoto" src="./img/robin2.jpg"></div>
-                    </div>  
-                    <div class="card-content">
-                      <p class="robinText"><i>Questioning Meat</i> is written by Robin Schaper. He is an independent expert on the topic
-                        and bases his book on extensive scientific research. The book also contains
-                        28 amazing recipes, developed by Cindy Albers.
-                      </p>
-                    </div>
-                  </div>
+              <div class="card">
+                <div class="card-image">
+                  <div class="robinImg"><img class="robinFoto" src="./img/robin2.jpg"></div>
+                </div>  
+                <div class="card-content">
+                  <p class="robinText"><i>Questioning Meat</i> is written by Robin Schaper. He is an independent expert on the topic
+                    and bases his book on extensive scientific research. The book also contains
+                    28 amazing recipes, developed by Cindy Albers.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <!-- Tablet and mobile -->
+      <div class="row hide-on-large-only" style="margin-top: 2%;">
+        <div class="col m12 l6 offset-l3 center-align">
+          <div id="mobile" class="bookContainer">
+            <img class="full bookMob" src="./img/bookMob.jpg">
+            <p class="bookText hide-on-med-and-down">Do you love meat and want to keep eating it? Are you skeptical of arguments against it?<br> But are you
+              still driven by curiosity and interested in having your ideas challenged?<br> Then this free e-book is
+              perfect for you!</p>
+              <p class="bookText hide-on-large-only" style="font-size: 40px;">Do you love meat and want to keep eating it?<br> Are you skeptical of arguments against it?<br>But are you
+                still driven by curiosity and <br>interested in having your ideas challenged?<br>Then this free e-book is
+                perfect for you!</p>
+                <a href="http://www.questioningmeat.com/files/QuestioningMeat.epub" onclick="handleOutboundLinkClicks()" id="downloadBtn" class="waves-effect waves-light btn-large downloadBtn2 hvr-grow " download="">Download Now</a>
+              </div>
+            </div>
+          </div>
+          <div>
           <div class="row hide-on-large-only">
-            <div class="col m10 offset-m1" style="margin-top: 400px;">
+            <div class="col m10 offset-m1" style="margin-top: 100px;">
              <div class="row footer">
                <div class="col m8 robinTextContainer">
                 <div class="robinText" style="font-size: 2.6rem;">
-                 <p style="margin: 0px"><i>Questioning Meat</i> is written by Robin Schaper. He is an independent expert on the topic
+                 <p style="margin-left: 20px"><i>Questioning Meat</i> is written by Robin Schaper. He is an independent expert on the topic
                    and bases his book on extensive scientific research. The book also contains
                    28 amazing recipes, developed by Cindy Albers.</p>
                  </div>
                </div>
-               <div class="col m4 robinCol">
-               <div style="height: 100%; position: relative;">
-                 <img class="robinFoto2" src="./img/robin2.jpg" style="position: absolute; bottom: 0px;">
+               <div class="col m4 robinCol" style="padding: 0px;">
+                 <div style="height: 100%; position: relative;">
+                   <img class="robinFoto2" src="./img/robin2.jpg" style="position: absolute; bottom: 0px;">
+                 </div>
                </div>
              </div>
            </div>
          </div>
-       </div>
-       <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
-       <script type="text/javascript" src="./js/materialize.min.js"></script>
-       <script type="text/javascript" src="./js/custom.js"></script>
-     </body>
-     </html>
+         </div>
+         </main>
+         <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+         <script type="text/javascript" src="./js/materialize.min.js"></script>
+         <script type="text/javascript" src="./js/custom.js"></script>
+       </body>
+       </html>
